@@ -1,0 +1,27 @@
+@import './app.styl';
+
+div{
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+}
+p {
+    width: 100px;
+    height: 100px;
+    background: lightseagreen;
+}
+section{
+    width:202px;
+    height:202px;
+    background: lightgreen;
+}
+
+.father{
+    display: flex;
+}
+
+.son{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
